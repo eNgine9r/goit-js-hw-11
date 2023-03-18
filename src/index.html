@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.css" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <div class="header">
@@ -14,5 +13,21 @@
         <button class="button" type="submit">Search</button>
       </form>
     </div>
+    <div class="gallery">
+    </div>
+    <button
+      type="button"
+      class="btn btn-primary button"
+      data-action="load-more"
+    >
+      <span
+        class="spinner-border spinner-border-sm spinner is-hidden"
+        role="status"
+        aria-hidden="true"
+      ></span>
+
+      <span class="label">Load more</span>
+    </button>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
